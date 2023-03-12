@@ -1,0 +1,473 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    position: relative;
+}
+.top_arrow{
+    display: flex;
+    justify-content: center;
+    position: fixed !important;;
+    right: 2%;
+    bottom: 4%;
+}
+.container{
+    width: 100%;
+    background-color: whitesmoke;
+}
+/* .header{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    background-color: whitesmoke;
+} */
+.nav{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.logo{
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+    height: 100px;
+}
+.nav div{
+    margin: 10px 50px;
+}
+.nav .link a{
+    font-size: 1.8rem;
+    padding: 15px 20px;
+    color: darkblue;
+    /* background-color: wheat; */
+    border: 1px solid transparent;
+}
+.nav .link a:hover{
+    border: 1px solid lightgray;
+    background-color: rgb(247, 247, 247);;
+    box-shadow: 0px 15px 50px rgb(199, 199, 199);
+}
+
+/* profile css */
+.profile{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 60px;
+    padding: 90px 0px 80px 100px;
+}
+.profimg{
+    margin: 0px 150px 0px 100px;
+}
+.profimg img{
+    width: 225px;
+    box-shadow: 0px 10px 30px 2px rgb(199, 199, 199);
+}
+.profileinfo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 1;
+    font-size: 25px;
+}
+.personalinfo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+    margin: 0px 0px 20px 0px ;
+}
+.personalinfo h1{
+    margin: 0px 0px 10px 0px;
+}
+.count{
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    border: 1px solid lightgray;;
+    padding: 25px 0px 25px 0px;
+    box-shadow: 0px 10px 30px 2px rgb(199, 199, 199);
+}
+.count span{
+    font-weight: bolder;
+}
+
+/* technologies section */
+
+
+.tech_heading{
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    font-size: 25px;
+    color: dimgray;
+}
+.tech_skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0px 40px 0px;
+    
+}
+.skill_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 50px;
+    width: 250px;
+    height: 230px;
+    
+}
+.skill_box img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgray;;
+
+}
+.skill_box span{
+    padding: 10px 0px;
+    font-size: 25px;
+}
+
+/* project section  */
+
+.project_heading{
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    font-size: 25px;
+    color: dimgray;
+}
+.project_skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0px 40px 0px;
+    
+}
+.project_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 50px;
+    width: 250px;
+    height: 230px;
+    transition: transform 1.5s;
+    
+    
+}
+.project_box:hover{
+    transform: rotateY(360deg);
+}
+
+.project_box img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.project_box span{
+    padding: 10px 0px;
+    font-size: 25px;
+    color: darkblue;
+}
+
+/* work experience */
+
+.work_heading{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    font-size: 25px;
+    color: dimgray;
+}
+.work_content{
+    padding: 10px 50px;
+    margin: 0px 150px 50px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0px 10px 30px 2px rgb(199, 199, 199);
+}
+
+.work_img img{
+    padding: 10px 30px;
+    width: 250px;
+    height: 200px;
+}
+.work_description{
+    line-height: 2rem;;
+}
+.work_description h3{
+    font-size: 2rem;
+}
+.work_description p{
+    font-size: 1.4rem;
+}
+
+/* educational section  */
+
+
+.ed_heading{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    font-size: 25px;
+    color: dimgray;
+}
+.ed_content{
+    padding: 10px 50px;
+    margin: 0px 150px 50px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0px 10px 30px 2px rgb(199, 199, 199);
+}
+
+.ed_img img{
+    padding: 10px 30px;
+    width: 250px;
+    height: 200px;
+}
+.ed_description{
+    line-height: 2rem;;
+}
+.ed_description h3{
+    font-size: 2rem;
+}
+.ed_description p{
+    font-size: 1.4rem;
+}
+
+/* contact section  */
+
+.conatct_container{
+    padding: 20px 0px 100px 0px;
+}
+.contact_heading{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    font-size: 25px;
+    color: dimgray;
+}
+.conatct_details{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contact_name , .contact_no , .contact_email{
+    padding: 15px 0px;
+    font-size: 1.5rem;;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0px 10px 30px 2px rgb(199, 199, 199);
+}
+.conatct_social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;;
+    padding: 30px 0px 20px 0px;
+}
+.conatct_social a{
+    padding: 10px;
+    margin: 10px 10px;
+}
+.conatct_social a:hover{
+    box-shadow: 0px 10px 30px 2px rgb(199, 199, 199);
+}
+
+/* footer section  */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 10px 0px;
+}
+
+/* media Query section mobile view */
+
+@media screen and (max-width: 600px) {
+    .top_arrow{
+        display: flex;
+        justify-content: center;
+        position: fixed !important;;
+        right: 3%;
+        bottom: 4%;
+    }
+    .top_arrow i{
+        font-size: 1.3rem !important;
+    }
+    .nav{
+        justify-content: center;
+        padding: 10px 15px;
+    }
+    .nav div{
+        margin: 2px 1px;
+    }
+.link span{
+    display: none !important;;
+}
+.logo{
+    width: auto;
+}
+.logo img{
+    display: none !important;
+}
+
+.nav .link a{
+    font-size: 1.5rem;
+    padding:5px 10px;
+}
+
+.profile{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.profimg{
+    margin: 0px
+}
+.profimg img{
+    width: 125px;
+    box-shadow: 0px 10px 30px 2px rgb(199, 199, 199);
+}
+.profileinfo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 20px 0px 10px 0px;
+    font-size: 16px;
+}
+.profileinfo p{
+    text-align: center;
+}
+
+.count{
+    flex-direction: column;
+    width: auto ;
+    line-height: 1.5rem;
+    padding: 10px 50px;
+}
+
+.tech_heading{
+    font-size: 16px;
+}
+.tech_skills{
+    padding: 0px 0px 0px 0px;
+}
+.skill_box{
+    width: 200px;
+    height: auto;
+}
+.skill_box span{
+    font-size: 16px;
+}
+
+.project_heading{
+    font-size: 16px;
+}
+.project_skills{
+    padding: 30px 0px;
+}
+.project_box{
+    margin: 20px 50px;
+    width: 200px;
+    height: auto;
+}
+
+.work_heading{
+    font-size: 16px;
+}
+.work_content{
+    margin: 10px 10px 40px 10px;
+    justify-content: center;
+}
+.work_description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1rem;
+}
+.work_description h3{
+    font-size: 1.5rem;
+}
+.work_description p{
+    text-align: center;
+    font-size: 1rem;
+}
+.ed_heading{
+    font-size: 16px;
+}
+.ed_content{
+    margin: 10px 10px 40px 10px;
+    justify-content: center;
+}
+.ed_description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1rem;
+}
+.ed_description h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.ed_description p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.conatct_container{
+    padding: 0px 0px 100px 0px;
+}
+
+.contact_heading{
+    font-size: 16px; 
+}
+.conatct_details{
+    flex-direction: column;
+}
+.contact_name, .contact_no, .contact_email{
+    width: auto;
+    padding: 10px 10px;
+    font-size: 14px;
+}
+.conatct_social{
+    padding: 20px 0px;
+}
+
+.conatct_social i{
+    font-size: 2rem !important;
+}
+.footer{
+    font-size: 1rem;
+}
+
+}
