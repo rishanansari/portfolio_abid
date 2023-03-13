@@ -57,9 +57,8 @@ body{
     border: 1px solid transparent;
 }
 .nav .link a:hover{
-    border: 1px solid lightgray;
     background-color: rgb(247, 247, 247);;
-    box-shadow: 0px 15px 50px rgb(199, 199, 199);
+    box-shadow: 0px 5px 15px rgb(199, 199, 199);
 }
 
 /* profile css */
@@ -76,7 +75,7 @@ body{
 }
 .profimg img{
     width: 225px;
-    box-shadow: 0px 10px 30px 2px rgb(199, 199, 199);
+    box-shadow: 0px 5px 30px rgb(199, 199, 199);
 }
 .profileinfo{
     display: flex;
@@ -101,7 +100,7 @@ body{
     width: 85%;
     border: 1px solid lightgray;;
     padding: 25px 0px 25px 0px;
-    box-shadow: 0px 10px 30px 2px rgb(199, 199, 199);
+    box-shadow: 0px 5px 15px rgb(199, 199, 199);
 }
 .count span{
     font-weight: bolder;
@@ -114,7 +113,7 @@ body{
     text-align: center;
     padding: 30px 0px 0px 0px;
     font-size: 25px;
-    color: dimgray;
+    color: black;;
 }
 .tech_skills{
     display: flex;
@@ -135,7 +134,7 @@ body{
 .skill_box img{
     width: 100%;
     height: 100%;
-    border: 1px solid lightgray;;
+    border: 1px solid lightgray;
 
 }
 .skill_box span{
@@ -149,7 +148,7 @@ body{
     text-align: center;
     padding: 30px 0px 0px 0px;
     font-size: 25px;
-    color: dimgray;
+    color: black;
 }
 .project_skills{
     display: flex;
@@ -179,12 +178,11 @@ body{
     border: 1px solid lightgray;
     border-radius: 50%;
     padding: 10px;
-
 }
 .project_box span{
     padding: 10px 0px;
     font-size: 25px;
-    color: darkblue;
+    color: darkslateblue;
 }
 
 /* work experience */
@@ -193,7 +191,7 @@ body{
     text-align: center;
     padding: 30px 0px 30px 0px;
     font-size: 25px;
-    color: dimgray;
+    color: black;
 }
 .work_content{
     padding: 10px 50px;
@@ -201,7 +199,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    box-shadow: 0px 10px 30px 2px rgb(199, 199, 199);
+    box-shadow: 0px 5px 15px rgb(199, 199, 199);
 }
 
 .work_img img{
@@ -226,7 +224,7 @@ body{
     text-align: center;
     padding: 30px 0px 30px 0px;
     font-size: 25px;
-    color: dimgray;
+    color: black;
 }
 .ed_content{
     padding: 10px 50px;
@@ -234,7 +232,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    box-shadow: 0px 10px 30px 2px rgb(199, 199, 199);
+    box-shadow: 0px 5px 15px rgb(199, 199, 199);
 }
 
 .ed_img img{
@@ -261,7 +259,7 @@ body{
     text-align: center;
     padding: 30px 0px 30px 0px;
     font-size: 25px;
-    color: dimgray;
+    color: black;
 }
 .conatct_details{
     display: flex;
@@ -275,7 +273,7 @@ body{
     margin: 10px;
     width: 30%;
     text-align: center;
-    box-shadow: 0px 10px 30px 2px rgb(199, 199, 199);
+    box-shadow: 0px 5px 15px rgb(199, 199, 199);
 }
 .conatct_social{
     display: flex;
@@ -352,7 +350,7 @@ body{
 }
 .profimg img{
     width: 125px;
-    box-shadow: 0px 10px 30px 2px rgb(199, 199, 199);
+    box-shadow: 0px 5px 15px rgb(199, 199, 199);
 }
 .profileinfo{
     display: flex;
@@ -363,8 +361,8 @@ body{
     margin: 20px 0px 10px 0px;
     font-size: 16px;
 }
-.profileinfo p{
-    text-align: center;
+.personalinfo p{
+    text-align: center;;
 }
 
 .count{
@@ -372,6 +370,12 @@ body{
     width: auto ;
     line-height: 1.5rem;
     padding: 10px 50px;
+}
+.count p{
+    text-align: justify;
+}
+.count span{
+margin: 0px 20px 0px 0px;
 }
 
 .tech_heading{
@@ -391,6 +395,20 @@ body{
 .project_heading{
     font-size: 16px;
 }
+
+.project_box img{
+    border-radius: 0%;
+    padding: 0px;
+}
+.project_box span{
+    display: flex;;
+    font-size: 20px;
+}
+
+.project_box:hover{
+    transform: none;
+}
+
 .project_skills{
     padding: 30px 0px;
 }
