@@ -11,6 +11,7 @@ html {
 body{
     position: relative;
 }
+
 .top_arrow{
     display: flex;
     justify-content: center;
@@ -369,6 +370,7 @@ body{
     width: auto ;
     line-height: 1.5rem;
     padding: 10px 50px;
+    border: none;
 }
 .count p{
     text-align: justify;
@@ -421,7 +423,8 @@ margin: 0px 20px 0px 0px;
     font-size: 16px;
 }
 .work_content{
-    margin: 10px 10px 40px 10px;
+    border-radius: 30px;
+    margin: 10px 40px 40px 40px;
     justify-content: center;
 }
 .work_description{
@@ -433,6 +436,7 @@ margin: 0px 20px 0px 0px;
 }
 .work_description h3{
     font-size: 1.5rem;
+    text-align: center;
 }
 .work_description p{
     text-align: center;
@@ -442,7 +446,8 @@ margin: 0px 20px 0px 0px;
     font-size: 16px;
 }
 .ed_content{
-    margin: 10px 10px 40px 10px;
+    border-radius: 30px;
+    margin: 10px 40px 40px 40px;
     justify-content: center;
 }
 .ed_description{
