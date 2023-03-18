@@ -137,7 +137,7 @@ body{
     align-items: center;
     margin: 30px 30px;
     width: 250px;
-    height: 230px;
+    height: 220px;
     
 }
 .skill_box img{
@@ -212,11 +212,11 @@ body{
 
 .work_img img{
     padding: 15px 30px;
-    width: 250px;
+    width: 230px;
     height: 200px;
 }
 .work_description{
-    line-height: 1.5rem;;
+    line-height: 1.8rem;
 }
 .work_description h3{
     font-size: 1.4rem;
@@ -244,11 +244,11 @@ body{
 
 .ed_img img{
     padding: 15px 30px;
-    width: 250px;
+    width: 230px;
     height: 200px;
 }
 .ed_description{
-    line-height: 1.5rem;;
+    line-height: 1.8rem;
 }
 .ed_description h3{
     font-size: 1.4rem;
@@ -444,6 +444,7 @@ margin: 0px 20px 0px 0px;
     flex-wrap: wrap;
     align-items: center;
     font-size: 1rem;
+    line-height: 1.8rem;
 }
 .work_description h3{
     font-size: 1.5rem;
@@ -469,6 +470,7 @@ margin: 0px 20px 0px 0px;
     flex-wrap: wrap;
     align-items: center;
     font-size: 1rem;
+    line-height: 1.8rem;
 }
 .ed_description h3{
     text-align: center;
