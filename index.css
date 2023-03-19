@@ -33,8 +33,12 @@ body{
     z-index: 1000;
     background-color: whitesmoke;
 } */
+
+/* navigation bar ------------------ */
+
 .nav{
     width: auto;
+    z-index: 10;
     display: flex;
     flex-wrap: wrap;;
     justify-content: space-evenly;
@@ -43,6 +47,7 @@ body{
     position: sticky;
     top: 0px;
     background-color: whitesmoke;
+    opacity: 0.98;
 }
 .logo{
     width: 150px;
@@ -311,9 +316,11 @@ body{
     padding: 10px 0px;
 }
 
+
+
 /* media Query section mobile view */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .top_arrow{
         display: flex;
         justify-content: center;
@@ -325,7 +332,7 @@ body{
         font-size: 1.3rem !important;
     }
     .nav{
-        justify-content: center;
+        justify-content: space-between;
         padding: 10px 15px;
     }
     .nav div{
@@ -338,12 +345,13 @@ body{
     width: auto;
 }
 .logo img{
-    display: none !important;
+    width: 80%;
+    height: 40px;
 }
 
 .nav .link a{
     font-size: 1.5rem;
-    padding:5px 15px;
+    padding:5px 5px;
 }
 
 .profile{
@@ -500,6 +508,7 @@ margin: 0px 20px 0px 0px;
     width: auto;
     padding: 10px 10px;
     font-size: 14px;
+    width: 250px;
 }
 .conatct_social{
     padding: 20px 0px;
