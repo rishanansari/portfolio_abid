@@ -37,23 +37,27 @@ body{
     width: auto;
     display: flex;
     flex-wrap: wrap;;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     border-bottom: 1px solid lightgray;
+    position: sticky;
+    top: 0px;
+    background-color: whitesmoke;
 }
 .logo{
     width: 150px;
 }
 .logo img{
     width: 80%;
-    height: 80px;
+    height: 70px;
 }
 .nav div{
-    margin: 10px 10px;
+    margin: 5px 10px;
+    
 }
 .nav .link a{
     font-size: 1.3rem;
-    padding: 15px 20px;
+    padding: 10px 15px;
     color: darkblue;
     /* background-color: wheat; */
     border: 1px solid transparent;
